@@ -1,6 +1,6 @@
 # Simple Run Environment
 
-This is a minimal run environment set up to run the code in node.  Also included is a simple jest test file for test the code.
+This is a minimal run environment set up to run the code in node.  Also included is a simple jest test file for testing the code.
 
 To open console in VSCode, use the commands `ctrl` + `.
 
