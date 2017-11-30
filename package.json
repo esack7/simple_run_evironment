@@ -1,0 +1,40 @@
+{
+  "name": "simple_run_evironment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --runInBand",
+    "test:exit": "jest --forceExit",
+    "lint": "eslint .",
+    "lint:test": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esack7/simple_run_evironment.git"
+  },
+  "author": "Isaac Heist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esack7/simple_run_evironment/issues"
+  },
+  "homepage": "https://github.com/esack7/simple_run_evironment#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
